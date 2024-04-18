@@ -1,0 +1,150 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    background-image: url("https://i.pinimg.com/originals/03/d6/b3/03d6b3ac9af0b284b44194cf791d3360.png");
+    background-color: #9f91ee;
+    min-height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: "Press Start 2P", sans-serif;
+    margin: 5px;
+    font-size: 18px;
+}
+
+#quiz-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    border: 2px solid #03ec36;
+    background-color: rgba(0, 225, 255, 0.8);
+    width: fit-content;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+    height: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: #ff61d8;
+    border-radius: 5px;
+    font-family: "Comfortaa", sans-serif;;
+}
+
+#quiz-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 225, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #03ec36;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#answers {
+    list-style: none;
+}
+
+#character-name {
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 24px;
+}
+
+#character-image{
+    height: 200px;
+    width: auto;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bungee-shade-regular {
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+        background-image: url("https://cdna.artstation.com/p/assets/images/images/058/772/300/large/noah-talkington-arcade-bee-and-puppycat-style.jpg?1674938370");
+    }
+    h1 {
+        font-family: "Bungee Shade", sans-serif;
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-family: "Press Start 2P", sans-serif;
+        margin: 10px;
+        font-size: 22px;
+
+    }
+    #character-name {
+        font-size: 28px;
+    }
+    #character-image{
+        height: 250px;
+        width: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 18px;
+        background-image: url("https://cdna.artstation.com/p/assets/images/images/058/772/300/large/noah-talkington-arcade-bee-and-puppycat-style.jpg?1674938370");
+    }
+    h1 {
+        font-family: "Bungee Shade", sans-serif;
+        font-size: 36px;
+    }
+    
+    h2 {
+        font-family: "Press Start 2P", sans-serif;
+        margin: 10px;
+        font-size: 28px;
+    }
+    #character-name {
+        margin-bottom: 10px;
+        margin-top: -10px;
+        font-size: 30px;
+    }
+    #character-image{
+        height: 300px;
+        width: auto;
+    }
+}

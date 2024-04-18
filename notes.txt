@@ -1,0 +1,152 @@
+Characters:
+- Bee
+    spacey and weird
+    very kind and loyal
+    doesn't give up easily
+    impulsive
+    gluttonous
+    afraid of water
+
+- Puppycat
+    cold at first but warms up
+    secretive 
+    cares deeply for others but has a tough front
+    egotistical
+    wants to be cool but actually cute
+    mischevious
+    awkward when showing affection
+
+- Deckard
+    shy
+    self-sacraficing and loyal
+    bad at cooking but likes to cook
+    likes plants
+
+- Cass
+    laid back
+    brutaly honest
+    tomboy with a girly side
+    insecure
+    dislikes physical touch
+
+- Toast
+    brash and aggressive
+    eccentric
+    bizzare beliefs or maybe just a weird sense of humor
+    obsessive thoughts and behaviors
+
+- Wesley
+    mysterious
+    effortlessly cool
+    quiet
+    straightforward
+    cutesy humor
+    likes to fish and care for sick sea creatures
+
+- Cardamon
+    very straight and business-like
+    strickler for rules
+    mature for his age 
+    responsible
+    still believes in fairytales
+
+- Pretty Patrick
+    kind, patient, forgiving
+    smiley 
+    generous
+    popular
+    loves food and the camera
+
+-Voilet
+    bold, outspoken, somewhat impulsive
+    can be rude
+    loyal and protective about those she cares about
+    dislikes jewelry and feet
+
+- Crispin
+    grumpy
+    antisocial
+    paranoid
+    self-critical
+    artistic
+
+- Howell
+    flamboyant and vain
+    scared of aging
+    particular 
+    always stressed
+    loves cats
+
+
+1. How do you react when you encounter a problem?
+A) I try to find a creative solution. (Bee, Crispin, Wesley) 
+B) I may get a bit overwhelmed but try to deal with it logically. (Howell, Deckard)
+C) I look for help from friends or experts. (Cass, Pretty Patrick, Cardamon)
+D) I tackle it head-on with a lot of energy. (Puppycat, Toast, Violet)
+
+2. How do you handle responsibilities?
+A) I sometimes forget, but I always try to make up for it! (Bee, Toast, Crispin)
+B) I keep a list and check things off meticulously. (Deckard, Cardamon, Howell)
+C) I handle them as they come; no stress. (Cass, Pretty Patrick, Wesley)
+D) I’m pretty flexible and can juggle many things. (Puppycat, Violet)
+
+3. What describes your eating habits?
+A) I love trying out weird and wonderful new recipes. (Deckard, Pretty Patrick)
+B) I prefer a well-balanced, healthy meal. (Howell, Cardamon)
+C) I eat whatever I feel like, often snacks or whatever is easiest. (Crispin, Bee, Cass)
+D) I enjoy a good meal, the heartier, the better! (Wesley, Toast, Voilet, Puppycat)
+
+4. How do you deal with conflicts?
+A) I try to smooth things over, maybe make a joke or distract. (Bee, Wesley)
+B) I think it through and speak my mind clearly and calmly. (Deckard, Cardamon, Pretty Patrick)
+C) I prefer to avoid conflicts and stay out of drama. (Cass, Crispin)
+D) I can be a bit fiery and confrontational. (Howell, Puppycat, Toast, Violet)
+
+5. What is your favorite type of movie?
+A) Anything animated or with a quirky twist. (Bee, Crispin, Deckard)
+B) I love a good mystery or something that makes me think. (Cardamon, Wesley)
+C) Romantic movies or dramas, something with deep personal stories. (Howell, Cass, Pretty Patrick)
+D) Action and adventure, something with a lot of excitement! (Puppycat, Toast, Violet)
+
+6. If you found a wallet on the street, what would you do?
+A) Take it to the police station or try to find the owner myself. (Wesley, Cardamon, Pretty Patrick, Deckard)
+B) Look for any identification so I can return it directly. (Bee, Violet, Cass)
+C) Probably leave it; someone else will handle it. (Crispin, Howell)
+D) Take the money. (Toast, Puppycat)
+
+7. Choose a pet:
+A) A cat. (Bee, Howell)
+B) A dog - loyal and protective. (Cardamon, Violet, Pretty Patrick)
+C) A small bird or fish that’s low maintenance. (Wesley, Crispin, Deckard)
+D) An exotic pet, like a reptile or something unusual. (Toast, Cass, Puppycat)
+
+8. What's you approach when faced with a difficult decision?
+A) I might act on impulse but I always stay true to my heart. (Bee, Crispin)
+B) I keep my cool and weigh my options carefully. (Puppycat, Wesley, Howell, Cardamon)
+C) I make decisions quickly, no fuss. (Cass, Toast, Violet)
+D) I try to be fair and consider everyone's happiness. (Pretty Patrick, Deckard)
+
+9. Choose a hobby that appeals most to you:
+A) Crafting, painting, other quiet activities. (Bee, Crispin, Wesley, Deckard)
+B) Strategic games. (Cardamon, Puppycat, Violet)
+C) Anything physical or sports-related. (Cass, Toast)
+D) Social activities or hosting events. (Pretty Patrick, Howell)
+
+10. How do you express affection to those you care about?
+A) With lots of hugs and kind gestures, making sure they feel special. (Bee, Howell, Pretty Patrick)
+B) It might be awkward, but I show care in my own way. (Puppycat, Crispin, Deckard)
+C) I prefer actions over words, like doing something nice for them. (Wesley, Voilet, Cass, Cardamon)
+D) I may tease them or poke fun, but they know I care. (Toast)
+
+11. What is your biggest fear?
+A) Being alone or unable to connect with others. (Bee, Pretty Patrick)
+B) Being misunderstood or judged incorrectly. (Wesley, Crispin)
+C) Not being able to protect my loved ones. (Voilet, Cardamon, Deckard)
+D) Being perceived as weak or not tough enough. (Cass, Puppycat)
+E) Being ordinary or not standing out. (Toast, Howell)
+
+12. What's the first thing you want to do at the theme park?
+A) Ride the biggest, scariest rollercoaster! (Bee, Toast, Cass, Violet)
+B) Try a game to win a big prize (Cardamon, Wesley)
+C) I'll be in the fun house (Crispin, Howell)
+D) I'd rather just eat all the food. (Pretty Patrick, Puppycat, Deckard)
