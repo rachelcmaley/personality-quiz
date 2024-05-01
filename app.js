@@ -206,7 +206,7 @@ let characters = {
         description: "Pretty Patrick is kind, patient, and forgiving. He doesn't even get angry when an old man swallows his wallet, nor when Puppycat subsequently steals his phone. He's nearly always smiling, and is generous with the amount of time and attention he gives to his many adoring fans.",
         image: "patrick.jpg"
     },
-    Voilet: { 
+    Violet: { 
         score: 0, 
         description: "Violet is bold, outspoken, and somewhat impulsive. She yelled at and knocked out her schoolteacher for bullying her friend: the yet-to-be Space Outlaw. She then ran away on a whim. Though she can be a bit rude at times, she's also loyal to and protective of those she cares about.",
         image: "violet.png"
@@ -223,287 +223,91 @@ let characters = {
     }
 };
 
+const scoreMapping = {
+    1: {
+        'A': ['Bee', 'Crispin', 'Wesley'],
+        'B': ['Deckard', 'Howell'],
+        'C': ['Cas', 'Cardamon', 'PrettyPatrick'],
+        'D': ['Toast', 'Puppycat', 'Violet']
+    },
+    2: {
+        'A': ['Bee', 'Toast', 'Crispin'],
+        'B': ['Howell', 'Deckard', 'Cardamon'],
+        'C': ['Cas', 'PrettyPatrick', 'Wesley'],
+        'D': ['Puppycat', 'Violet']
+    },
+    3: {
+        'A': ['Deckard', 'PrettyPatrick'],
+        'B': ['Howell', 'Cardamon'],
+        'C': ['Crispin', 'Bee', 'Cas'],
+        'D': ['Wesley', 'Violet', 'Puppycat', 'Toast']
+    },
+    4: {
+        'A': ['Bee', 'Wesley'],
+        'B': ['PrettyPatrick', 'Deckard', 'Cardamon'],
+        'C': ['Cas', 'Crispin'],
+        'D': ['Puppycat', 'Violet', 'Toast', 'Howell']
+    },
+    5: {
+        'A': ['Bee', 'Deckard',  'Crispin'],
+        'B': ['Cardamon', 'Wesley'],
+        'C': ['Howell', 'Cas', 'PrettyPatrick'],
+        'D': ['Puppycat', 'Toast', 'Violet']
+    },
+    6: {
+        'A': ['Wesley', 'Cardamon', 'PrettyPatrick', 'Deckard'],
+        'B': [ 'Cas', 'Bee', 'Violet'],
+        'C': [ 'Crispin', 'Howell'],
+        'D': ['Puppycat', 'Toast']
+    },
+    7: {
+        'A': ['Bee','Howell'],
+        'B': ['PrettyPatrick','Cardamon', 'Violet'],
+        'C': ['Crispin', 'Wesley', 'Deckard'],
+        'D': ['Toast', 'Puppycat', 'Cas']
+    },
+    8: {
+        'A': ['Bee', 'Crispin'],
+        'B': ['Puppycat', 'Howell', 'Cardamon', 'Wesley'],
+        'C': ['Toast', 'Cas', 'Violet'],
+        'D': ['Deckard', 'PrettyPatrick']
+    },
+    9: {
+        'A': ['Bee', 'Deckard', 'Crispin', 'Wesley'],
+        'B': ['Cardamon', 'Puppycat', 'Violet'],
+        'C': ['Cas', 'Toast'],
+        'D': ['PrettyPatrick', 'Howell']
+    },
+    10: {
+        'A': ['Bee', 'Howell','PrettyPatrick'],
+        'B': ['Crispin','Puppycat', 'Deckard'],
+        'C': ['Cas', 'Wesley', 'Cardamon', 'Violet'],
+        'D': ['Toast']
+    },
+    11: {
+        'A': ['Bee', 'PrettyPatrick'],
+        'B': [ 'Crispin', 'Wesley'],
+        'C': ['Violet', 'Deckard', 'Cardamon'],
+        'D': ['Puppycat', 'Cas'],
+        'E': ['Howell', 'Toast']
+    },
+    12: {
+        'A': ['Bee', 'Toast', 'Cas', 'Violet'],
+        'B': ['Wesley',  'Cardamon'],
+        'C': ['Crispin', 'Howell'],
+        'D': ['Deckard', 'Puppycat', 'PrettyPatrick']
+    },
+}
+
 // Function to update scores based on answer and question number
 function updateScores(answer, questionNumber) {
-    switch(questionNumber) {
-        case 1:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Crispin.score += 1;
-                    characters.Wesley.score += 1;
-                    break;
-                case 'B':
-                    characters.Deckard.score += 1;
-                    characters.Howell.score += 1;
-                    break;
-                case 'C':
-                    characters.Cas.score += 1;
-                    characters.Cardamon.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    break;
-                case 'D':
-                    characters.Toast.score += 1;
-                    characters.Puppycat.score += 1;
-                    characters.Voilet.score += 1;
-                    break;
-            }
-            break;
-        case 2:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Toast.score += 1;
-                    characters.Crispin.score += 1;
-                    break;
-                case 'B':
-                    characters.Howell.score += 1;
-                    characters.Deckard.score += 1;
-                    characters.Cardamon.score += 1;
-                    break;
-                case 'C':
-                    characters.Cas.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    characters.Wesley.score += 1;
-                    break;
-                case 'D':
-                    characters.Puppycat.score += 1;
-                    characters.Voilet.score += 1;
-                    break;
-            }
-            break;
-        case 3:
-            switch(answer) {
-                case 'A':
-                    characters.Deckard.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    break;
-                case 'B':
-                    characters.Howell.score += 1;
-                    characters.Cardamon.score += 1;
-                    break;
-                case 'C':
-                    characters.Crispin.score += 1;
-                    characters.Bee.score += 1;
-                    characters.Cas.score += 1;
-                    break;
-                case 'D':
-                    characters.Wesley.score += 1;
-                    characters.Toast.score += 1;
-                    characters.Voilet.score += 1;
-                    characters.Puppycat.score += 1;
-                    break;
-            }
-            break;
-        case 4:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Wesley.score += 1;
-                    break;
-                case 'B':
-                    characters.Deckard.score += 1;
-                    characters.Cardamon.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    break;
-                case 'C':
-                    characters.Cas.score += 1;
-                    characters.Crispin.score += 1;
-                    break;
-                case 'D':
-                    characters.Howell.score += 1;
-                    characters.Puppycat.score += 1;
-                    characters.Toast.score += 1;
-                    characters.Voilet.score += 1;
-                    break;
-            }
-            break;
-        case 5:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Crispin.score += 1;
-                    characters.Deckard.score += 1;
-                    break;
-                case 'B':
-                    characters.Wesley.score += 1;
-                    characters.Cardamon.score += 1;
-                    break;
-                case 'C':
-                    characters.Cas.score += 1;
-                    characters.Howell.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    break;
-                case 'D':
-                    characters.Puppycat.score += 1;
-                    characters.Toast.score += 1;
-                    characters.Voilet.score += 1;
-                    break;
-            }
-            break;
-        case 6:
-            switch(answer) {
-                case 'A':
-                    characters.Wesley.score += 1;
-                    characters.Cardamon.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    characters.Deckard.score += 1;
-                    break;
-                case 'B':
-                    characters.Bee.score += 1;
-                    characters.Voilet.score += 1;
-                    characters.Cas.score += 1;
-                    break;
-                case 'C':
-                    characters.Crispin.score += 1;
-                    characters.Howell.score += 1;
-                    break;
-                case 'D':
-                    characters.Toast.score += 1;
-                    characters.Puppycat.score += 1;
-                    break;
-            }
-            break;
-        case 7:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Howell.score += 1;
-                    break;
-                case 'B':
-                    characters.Cardamon.score += 1;
-                    characters.Voilet.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    break;
-                case 'C':
-                    characters.Wesley.score += 1;
-                    characters.Crispin.score += 1;
-                    characters.Deckard.score += 1;
-                    break;
-                case 'D':
-                    characters.Toast.score += 1;
-                    characters.Cas.score += 1;
-                    characters.Puppycat.score += 1;
-                    break;
-            }
-            break;
-        case 8:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Crispin.score += 1;
-                    break;
-                case 'B':
-                    characters.Puppycat.score += 1;
-                    characters.Wesley.score += 1;
-                    characters.Howell.score += 1;
-                    characters.Cardamon.score += 1;
-                    break;
-                case 'C':
-                    characters.Cas.score += 1;
-                    characters.Toast.score += 1;
-                    characters.Voilet.score += 1;
-                    break;
-                case 'D':
-                    characters.PrettyPatrick.score += 1;
-                    characters.Deckard.score += 1;
-                    break;
-            }
-            break;
-        case 9:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Crispin.score += 1;
-                    characters.Wesley.score += 1;
-                    characters.Deckard.score += 1;
-                    break;
-                case 'B':
-                    characters.Cardamon.score += 1;
-                    characters.Puppycat.score += 1;
-                    characters.Voilet.score += 1;
-                    break;
-                case 'C':
-                    characters.Cas.score += 1;
-                    characters.Toast.score += 1;
-                    break;
-                case 'D':
-                    characters.PrettyPatrick.score += 1;
-                    characters.Howell.score += 1;
-                    break;
-            }
-            break;
-        case 10:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Howell.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    break;
-                case 'B':
-                    characters.Puppycat.score += 1;
-                    characters.Crispin.score += 1;
-                    characters.Deckard.score += 1;
-                    break;
-                case 'C':
-                    characters.Wesley.score += 1;
-                    characters.Voilet.score += 1;
-                    characters.Cas.score += 1;
-                    characters.Cardamon.score += 1;
-                    break;
-                case 'D':
-                    characters.Toast.score += 1;
-                    break;
-            }
-            break;
-        case 11:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.PrettyPatrick.score += 1;
-                    break;
-                case 'B':
-                    characters.Wesley.score += 1;
-                    characters.Crispin.score += 1;
-                    break;
-                case 'C':
-                    characters.Voilet.score += 1;
-                    characters.Cardamon.score += 1;
-                    characters.Deckard.score += 1;
-                    break;
-                case 'D':
-                    characters.Cas.score += 1;
-                    characters.Puppycat.score += 1;
-                    break;
-                case 'E':
-                    characters.Toast.score += 1;
-                    characters.Howell.score += 1;
-                    break;
-            }
-            break;
-        case 12:
-            switch(answer) {
-                case 'A':
-                    characters.Bee.score += 1;
-                    characters.Toast.score += 1;
-                    characters.Cas.score += 1;
-                    characters.Voilet.score += 1;
-                    break;
-                case 'B':
-                    characters.Cardamon.score += 1;
-                    characters.Wesley.score += 1;
-                    break;
-                case 'C':
-                    characters.Crispin.score += 1;
-                    characters.Howell.score += 1;
-                    break;
-                case 'D':
-                    characters.PrettyPatrick.score += 1;
-                    characters.Puppycat.score += 1;
-                    characters.Deckard.score += 1;
-                    break;
-            }
-            break;
+    const charactersToUpdate = scoreMapping[questionNumber][answer];
+    if (charactersToUpdate) {
+        charactersToUpdate.forEach(character => {
+            characters[character].score += 1;
+        });
+    } else {
+        console.error("No character mapping found for this answer and question number");
     }
 }
 
